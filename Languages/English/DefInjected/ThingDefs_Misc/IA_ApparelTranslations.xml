@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+	<!-- Body Armors -->
+	<Apparel_InsulatedPowerArmor.label>insulated marine armor</Apparel_InsulatedPowerArmor.label>
+	<Apparel_InsulatedPowerArmor.description>An insulated suit of light powered armor. Insulates well against both cold and heat. Has a 7% movementspeed penalty.</Apparel_InsulatedPowerArmor.description>
+
+	<Apparel_InsulatedReconArmor.label>insulated recon armor</Apparel_InsulatedReconArmor.label>
+	<Apparel_InsulatedReconArmor.description>A suit of insulated light partially-powered armor, designed to permit quick movement. Lightweight plasteel-weave plates block attacks without compromising mobility, and neuro-memetic assistors in the lower body allow a human to wear the armor and still move easily.\n\nArmor like this is often used by imperial scout troops and glitterworld police forces.</Apparel_InsulatedReconArmor.description>
+	
+	<Apparel_InsulatedArmorCataphract.label>insulated cataphract armor</Apparel_InsulatedArmorCataphract.label>
+	<Apparel_InsulatedArmorCataphract.description>An insulated suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available.</Apparel_InsulatedArmorCataphract.description>
+	
+	
+	<!-- Helmets -->
+	<Apparel_InsulatedPowerArmorHelmet.label>insulated marine helmet</Apparel_InsulatedPowerArmorHelmet.label>
+	<Apparel_InsulatedPowerArmorHelmet.description>An insulated marine armor helmet. Insulates well against both cold and heat.</Apparel_InsulatedPowerArmorHelmet.description>
+	
+	<Apparel_InsulatedReconArmorHelmet.label>insulated recon helmet</Apparel_InsulatedReconArmorHelmet.label>
+	<Apparel_InsulatedReconArmorHelmet.description>A high-tech insulated armored helmet with a built-in status computer and a protective plasteel-weave plate.\n\nArmor like this is often used by imperial scout troops or glitterworld police forces.</Apparel_InsulatedReconArmorHelmet.description>
+	
+	<Apparel_InsulatedArmorHelmetCataphract.label>insulated cataphract helmet</Apparel_InsulatedArmorHelmetCataphract.label>
+	<Apparel_InsulatedArmorHelmetCataphract.description>A heavily-armored insulated high-tech helmet, with a solid plasteel-weave shell and indirect visual system for non-frontal view angles. It protects against all but the most powerful or luckily-aimed shots.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available.</Apparel_InsulatedArmorHelmetCataphract.description>
+	
+</LanguageData>

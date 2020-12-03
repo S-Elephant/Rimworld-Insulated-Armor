@@ -1,0 +1,29 @@
+<ModMetaData>
+	<name>Insulated Armor</name>
+	<author>Squirting Elephant</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>SquirtingElephant.InsulatedArmor</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+	<description>Adds an insulated version of power armor to the game. I always disliked not being able to wear power armor in lategame in those extreme desert/ice biomes with temperatures of over 100C killing my armored colonists. Well now there is power armor that comes with insulation! Note that enemy raiders and caravans may also wear it.
+	
+Technical Info:
+- Unlocks by researching the vanilla researches.
+- Does NOT overwrite/delete vanilla power armor.
+- Mod is XML only and overwrites nothing. Contains no XPath operations. This is an extremely compatible mod.
+- Can safely be added to an existing game.
+- Before removing this mod from an existing game, please make sure that you unequipped and destroyed all armor from this mod including the ones your colonists are currently wearing.
+- Translation ready.
+
+New armors (craft at a Fabrication Bench):
+- Insulated power armor and helmet.
+- Insulated recon armor and helmet.
+- Insulated cataphract armor and helmet.
+They all have 80% base insulation. These armors have the same stats as regular armor but are more expensive, take longer to craft and insulate much better.</description>
+
+</ModMetaData>

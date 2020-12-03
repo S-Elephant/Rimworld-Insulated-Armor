@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelArmorHelmetPowerBase">
+	   <defName>Apparel_InsulatedPowerArmorHelmet</defName>
+	   <label>insulated marine helmet</label>
+	   <description>An insulated marine armor helmet. Insulates well against both cold and heat.</description>
+	   <statBases>
+		  <WorkToMake>32000</WorkToMake>
+		  <ArmorRating_Heat>0.7</ArmorRating_Heat>
+		  <Insulation_Cold>8</Insulation_Cold>
+		  <Insulation_Heat>8</Insulation_Heat>
+	   </statBases>
+	   <costList Inherit="False">
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>60</Plasteel>
+			<DevilstrandCloth>25</DevilstrandCloth>
+			<Cloth>50</Cloth>
+	   </costList>
+	   <apparel>
+		  <tags>
+			 <li>SpacerMilitary</li>
+			 <li>RoyalCombatGear</li>
+		  </tags>
+	   </apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ApparelArmorHelmetReconBase">
+	   <defName>Apparel_InsulatedReconArmorHelmet</defName>
+	   <label>insulated recon helmet</label>
+	   <description>A high-tech insulated armored helmet with a built-in status computer and a protective plasteel-weave plate.\n\nArmor like this is often used by imperial scout troops or glitterworld police forces.</description>
+	   <statBases>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+	   </statBases>
+		<costList Inherit= "False">
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<DevilstrandCloth>25</DevilstrandCloth>
+			<Cloth>50</Cloth>
+		</costList>
+		<apparel>
+		  <tags>
+			<li>SpacerMilitary</li>
+			<li>RoyalCombatGear</li>
+		  </tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelArmorHelmetCataphractBase">
+		<defName>Apparel_InsulatedArmorHelmetCataphract</defName>
+		<label>insulated cataphract helmet</label>
+		<description>A heavily-armored insulated high-tech helmet, with a solid plasteel-weave shell and indirect visual system for non-frontal view angles. It protects against all but the most powerful or luckily-aimed shots.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available.</description>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+		</statBases>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>65</Plasteel>
+		</costList>
+		<apparel>
+			<tags>
+				<li>RoyalCombatGear</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

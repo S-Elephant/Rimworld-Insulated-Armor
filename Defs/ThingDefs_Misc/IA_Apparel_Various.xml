@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================================== Advanced Marine Armor =====================================-->
+	
+	<ThingDef ParentName="ApparelArmorPowerBase">
+		<defName>Apparel_InsulatedPowerArmor</defName>
+		<label>insulated marine armor</label>
+		<description>An insulated suit of light powered armor. Insulates well against both cold and heat. Has a 7% movementspeed penalty.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>80</Insulation_Cold>
+			<Insulation_Heat>80</Insulation_Heat>
+		</statBases>
+		<costList Inherit= "False">
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>110</Plasteel>
+			<Uranium>22</Uranium>
+			<DevilstrandCloth>50</DevilstrandCloth>
+			<Cloth>100</Cloth>
+		</costList>
+		<apparel>
+		  <tags>
+			<li>SpacerMilitary</li>
+			<li>RoyalCombatGear</li>
+		  </tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ApparelArmorReconBase">
+		<defName>Apparel_InsulatedReconArmor</defName>
+		<label>insulated recon armor</label>
+		<description>A suit of insulated light partially-powered armor, designed to permit quick movement. Lightweight plasteel-weave plates block attacks without compromising mobility, and neuro-memetic assistors in the lower body allow a human to wear the armor and still move easily.\n\nArmor like this is often used by imperial scout troops and glitterworld police forces.</description>
+		<statBases>
+			<WorkToMake>57000</WorkToMake>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>80</Insulation_Cold>
+			<Insulation_Heat>80</Insulation_Heat>
+		</statBases>
+		<costList Inherit= "False">
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>90</Plasteel>
+			<Uranium>12</Uranium>
+			<DevilstrandCloth>50</DevilstrandCloth>
+			<Cloth>100</Cloth>
+		</costList>
+		<apparel>
+		  <tags>
+			<li>SpacerMilitary</li>
+			<li>RoyalCombatGear</li>
+		  </tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ApparelArmorCataphractBase">
+		<defName>Apparel_InsulatedArmorCataphract</defName>
+		<label>insulated cataphract armor</label>
+		<description>An insulated suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available.</description>
+		<statBases>
+			<WorkToMake>110000</WorkToMake>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>80</Insulation_Cold>
+			<Insulation_Heat>80</Insulation_Heat>
+		</statBases>
+		<costList>
+			<ComponentSpacer>8</ComponentSpacer>
+			<Plasteel>225</Plasteel>
+			<Uranium>75</Uranium>
+		</costList>
+		<apparel>
+			<tags>
+				<li>RoyalCombatGear</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+</Defs>
